@@ -8,7 +8,7 @@ public class Agent {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
-    private int AGENTCODE;
+    private Long AGENTCODE;
 
     private String AGENTNAME;
     private String WORKINGAREA;
